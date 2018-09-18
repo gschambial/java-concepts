@@ -11,7 +11,9 @@
     - Anonymous Interface Implementations can have state (member variables)
     - Lambdas cannot have state (member variables)
   - Lambda Type Inference
-    - ```item.addListener(
+      ```
+      item.addListener(
         (oldState, newState) -> System.out.println("State changed")
-      );```
+      );
+      ```
       Type of parameter for Lamba expression is inferenced from `addListener` method declaration.
