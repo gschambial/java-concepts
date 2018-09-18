@@ -7,4 +7,6 @@
     - `(int a, int b) -> { a += 10; b += 20; return a+b; }`
   - Pointers
     - Function interfaces having only one abstract method (As interfaces in Java8 can have default and static methods in addition to abstract methods)
-    - 
+  - Lambda vs Anonymous Interface Implementations
+    - Anonymous Interface Implementations can have state (member variables)
+    - Lambdas cannot have state (member variables)
