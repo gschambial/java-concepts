@@ -18,4 +18,7 @@
       ```
       Type of parameter for Lamba expression is inferenced from `addListener` method declaration.
   - Java lambda expression is treated as a function, so the compiler does not create a .class file
-  - 
+  - Uses
+    - Implementation of Functinal Interfaces
+    - Examples to use; Runnable, Callable, Comparator
+  - Default methods of an Interface cannot be accessed from a Lambda Expression
