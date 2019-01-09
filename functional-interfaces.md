@@ -34,7 +34,7 @@ Takes 2 arguments and retrurn 1 value.
 
 ## Code Example
 
-```public static void main(String[] args) {
+	public static void main(String[] args) {
 
 		List<Person> persons = new ArrayList<>();
 
@@ -76,7 +76,7 @@ Takes 2 arguments and retrurn 1 value.
 		System.out.println("Testing BiFunction...................................");
 		BiFunction<Person, Person, Integer> greaterAgeBifunction = (p1, p2) -> p1.getAge() >= p2.getAge() ? p1.getAge() :p2.getAge();
 		System.out.println(greaterAgeBifunction.apply(p26, p20));
-	}```
+	}
 
 
 
