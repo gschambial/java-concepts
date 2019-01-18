@@ -139,3 +139,18 @@ list.add("Chambial");
 		System.out.println(list.stream().collect(whiteSpaceCollector));
  ```
 
+### Reduce
+
+Reduce method is helpful to reduce a stream into a single result e.g. max(), min(), sum(). There are 3 variations of redcue:
+
+- `reduce((a,b) -> a+b);` 
+ - Binary Accumulator
+- `reduce(10, (a,b) -> a+b);` 
+ - Identity (initial and default value), Binary Accumulator
+- `reduce(10, (a,b) -> a+b, (p, q) -> return p + q);`
+ - Identity (initial and default value), Binary Accumulator, Combiner
+
+### FlatMap
+
+https://stackoverflow.com/questions/26684562/whats-the-difference-between-map-and-flatmap-methods-in-java-8
+
